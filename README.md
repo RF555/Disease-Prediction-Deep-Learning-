@@ -59,5 +59,5 @@ The main improvements I found myself correcting during the building of the Neura
 # Improvements
 
 * To address overfitting in the Neural Network, regularization techniques can be applied.
-* Hyperparameter tuning, such as adjusting the learning rate or batch size, may further optimize the performance of both
-  models.
+* Hyperparameter tuning, such as adjusting the learning rate, number of epochs or batch size, may further optimize the
+  performance of both models.
