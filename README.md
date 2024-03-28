@@ -24,3 +24,15 @@ The main improvements I found myself correcting during the building of the Neura
 * Use one hot encoding s o th at the label matrix of our data will be in the shape of (4962, 41).
 * Trying different depths to the network and sizes of the hidden layers
 * Trying different optimizers (ended up with Adam).
+
+# Comparison
+
+## Neural Network
+•	The loss decreases significantly over epochs, which indicates that the Neural Network learns effectively from the data.
+•	The accuracy of the Neural Network on the test set is near-perfect indicating its ability to generalize well to unseen data.
+•	The perfect accuracy on the training set suggests that the model may be overfitting to the training data, as the model may have memorized the training data rather than learning generalizable patterns.
+## SoftMax
+•	The loss decreases gradually over epochs, indicating that the model is learning from the training data.
+# Improvements
+•	To address overfitting in the Neural Network, regularization techniques can be applied.
+•	Hyperparameter tuning, such as adjusting the learning rate or batch size, may further optimize the performance of both models.
